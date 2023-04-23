@@ -1,0 +1,379 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+body {
+    background-color: #F5F5F5;        /* White Smoke */
+    color: #202020;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+  
+
+#wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+/**** Site Header ****/
+
+#site-header {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F5;        /* White Smoke */
+    padding: 20px 0px 20px;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+}
+
+
+.header-items {
+    width: 100%;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #F5F5F5;        /* /White Smoke */
+    overflow: hidden;
+}
+  
+
+.project {
+    font-weight: 300;
+    display: block;
+    letter-spacing: 0.1em;
+}
+
+
+.project h1 {
+    font-size: 24px;
+}
+
+
+.project-title {
+    font-size: 16px;
+    font-weight: 300;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+
+.website {
+    display: flex;
+}
+
+
+.icon1 {
+    display: inline-block;
+}
+
+
+.icon2 {
+    display: none;
+}
+
+
+.website:hover .icon1 {
+    display: none;
+}
+
+
+.website:hover .icon2 {
+    display: inline-block;
+    transform: scale(1.1);
+}
+
+
+/**** Main Content ****/
+
+#main {
+    margin-top: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .counter-name {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+
+  .counter-name h1 {
+    font-size: 32px;
+
+  }
+
+
+#container {
+    position: relative;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    
+}
+  
+
+.smartw-pic {
+    width: 100%;
+    display: block;
+}
+  
+
+
+/**** Smartwatch Buttons ****/
+
+#minus {
+    position: absolute;
+    top: 210px; 
+    left: 80px;
+    font-weight: 800;
+    font-size: 16px;
+    height: 28px;
+    width: 28px;
+    color: #000;                /* Black */ 
+    border: #D89AA9;            /* Parrot Pink */ 
+    background-color: #D89AA9;  /* Parrot Pink */
+    border-radius: 100%;
+    z-index: 2;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+
+#plus {
+    position: absolute;
+    top: 210px;
+    right: 80px;
+    font-weight: 800;
+    font-size: 16px;
+    height: 28px;
+    width: 28px;
+    border-radius: 100%;
+    color: #000;                /* Black */ 
+    border: #D89AA9;            /* Parrot Pink */
+    background-color: #D89AA9;  /* Parrot Pink */
+    z-index: 20;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+#reset {
+    position: absolute;
+    left: 130px;
+    top: 250px;
+    font-weight: 800;
+    font-size: 16px;
+    height: 22px;
+    width: 40px;
+    border-radius: 8%;
+    color: #000;                /* Black */ 
+    border: #D89AA9;            /* Parrot Pink */
+    background-color: #D89AA9;  /* Parrot Pink */ 
+    z-index: 2;
+    cursor: pointer;
+    text-align: center;
+}
+
+#minus:hover, 
+#plus:hover,
+#reset:hover {
+    background-color: #e3acbb;  /* Pale Chestnut */ 
+}
+
+
+#minus:active,
+#plus:active,
+#reset:active {
+    background-color: #D89AA9;  /* Parrot Pink */ 
+    transform: scale(0.98);
+}
+
+
+.numbCont {
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    position: absolute;
+    top: 140px;
+    left: 135px;
+}
+
+
+#number {
+    font-size: 40px;
+    color: #fff;
+}
+
+
+
+/**** Media Query for Tablet or medium devices ****/
+
+@media only screen and (min-width: 768px) and (max-width: 991px)  {
+
+    
+    #main {
+        margin-top: 210px;
+    }
+
+
+    .project-title {
+        display: inline;
+    }
+
+
+   .counter-name {
+    margin-bottom: 50px;
+
+   }
+
+
+    .counter-name h1{
+        font-size: 40px;
+    }
+
+    #container {
+        width: 450px;
+        overflow: hidden;
+    }
+
+
+    #minus {
+        top: 312px; 
+        left: 110px;
+        width: 40px;
+        height: 40px;
+        font-size: 24px;
+    }
+
+
+    #plus {
+        top: 312px; 
+        right: 110px;
+        width: 40px;
+        height: 40px;
+        font-size: 24px;
+    }
+
+
+    #reset {
+        top: 370px; 
+        left: 200px;
+        font-size: 24px;
+        width: 60px; 
+        height: 32px;
+    }
+
+
+    .numbCont {
+        width: 110px;
+        top: 200px;
+        left: 170px;
+        
+    }
+
+
+    #number {
+        font-size: 80px;
+    }
+    }
+
+    
+
+/**** Media Query for Laptop - Desktop or large devices ****/
+
+@media only screen and (min-width: 992px) {
+
+    #main {
+        margin-top: 120px;
+    }
+
+
+    .project-title {
+        display: inline;
+    }
+    
+
+    .counter-name {
+        margin-bottom: 40px;
+    
+       }
+
+
+    .counter-name h1 {
+        font-size: 40px;
+    }
+
+
+    #container {
+        width: 450px;
+        overflow: hidden;
+
+    }
+
+
+    #minus {
+
+        top: 312px; 
+        left: 110px;
+        width: 40px;
+        height: 40px;
+        font-size: 24px;
+    }
+
+
+    #plus {
+        top: 312px; 
+        right: 110px;
+        width: 40px;
+        height: 40px;
+        font-size: 24px;
+    }
+
+
+    #reset {
+        top: 370px; 
+        left: 200px;
+        font-size: 24px;
+        width: 60px; 
+        height: 32px;
+    }
+
+
+    .numbCont {
+        width: 110px;
+        top: 190px;
+        left: 170px;
+        
+    }
+
+
+    #number {
+        font-size: 80px;
+    }
+}
+
+
+  
+  
+  
+  
