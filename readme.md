@@ -39,7 +39,7 @@ The counter has **0** as its **initial value** and is made up of the following *
 
 ## Links and Contacts
 ### Try the Counter 
-**Project Link**: 
+**Project Link**: https://the-runners-counter.netlify.app/
 
 ### My Contacts
 * [My Website](https://saraol.github.io/)
