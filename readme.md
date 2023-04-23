@@ -29,7 +29,7 @@ For the **design of the counter** I was inspired by my great passion, running. I
 
 The counter has **0** as its **initial value** and is made up of the following **buttons**:
 * the **Plus Button (+)**, which allows the user to **increase** the value of the counter; 
-* the **Minus Button (-)** which allows the user to **decrease** the value of the counter; 
+* the **Minus Button (-)**, which allows the user to **decrease** the value of the counter; 
 * the **Reset Button (R)**, which instead allows the user to **reset** the value to 0.
 
 ## Built With
