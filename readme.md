@@ -21,7 +21,7 @@
 
 
 ## About the Project
-**The Runner's Counter** is the second project created within the **Full Stack Development** course, which I am taking on [start2impact](https://www.start2impact.it/). 
+**The Runner's Counter** is the second project carried out within the **Full Stack Development** course, which I am taking on [start2impact](https://www.start2impact.it/). 
 
 The goal of the project is to build a **JavaScript application** that functions as a **counter**.
 
